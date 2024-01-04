@@ -8,7 +8,7 @@ export default function About() {
 
   return (
     <motion.section
-      className="mb-28 max-w-[45rem] text-center leading-8 sm:mb-40"
+      className="mb-28 max-w-[45rem] text-center leading-8 sm:mb-0"
       initial={{ opacity: 0, y: 100 }}
       animate={{ opacity: 1, y: 0 }}
       transition={{ delay: 0.175 }}
@@ -31,7 +31,7 @@ export default function About() {
         </span>
         . I am also familiar with Node.js and MongoDB. I am always looking to
         learn new technologies. I am currently looking for a{" "}
-        <span className="font-medium">full-time position</span> as a software
+        <span className="font-medium">full-time position</span> as a front-end
         developer.
       </p>
 
