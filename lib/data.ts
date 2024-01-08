@@ -55,3 +55,22 @@ export const projectsData = [
     link:"https://ags.ae/en"
   },
 ] as const;
+
+export const skillsData = [
+  "HTML",
+  "CSS",
+  "JavaScript",
+  "TypeScript",
+  "React",
+  "Next.js",
+  "React native",
+  "Redux",
+  "Tailwind",
+  "Bootstrap",
+  "Material ui",
+  "Framer Motion",
+  "Git",
+  "Node.js",
+  "Express",
+  "MongoDB",
+] as const;
