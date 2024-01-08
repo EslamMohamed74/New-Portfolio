@@ -84,7 +84,7 @@ export const experiencesData = [
     title: "Senior Frontend Developer",
     location: "Blue Holding Company · Full-time",
     description:
-      "Developed interactive components with Next.js, CSS3, Bootstrap, and Tailwind. Utilized React hooks for state management, shared react-hook-form API methods using context, and validated forms with React-Hook-Form and Yup schema. Optimized REST API calls and data fetching with Axios and React-Query.",
+      "Developed interactive landing pages and portfolio websites for many companies with Next.js, Bootstrap, and Tailwind.",
     icon: React.createElement(FaReact),
     date: "Nov 2022 - present",
   },
@@ -92,7 +92,7 @@ export const experiencesData = [
     title: "Frontend Web Developer",
     location: "Fudex EBS · Part-time",
     description:
-      "Enhanced https://stock.qvm.parts/ with new features and redesigned pages using React.js, CSS3, and Material UI. Managed component state with React hooks, useState, and Redux. Leveraged Axios for efficient REST API calls and data fetching.",
+      "Working on enhanced https://stock.qvm.parts/ with new features, redesigned pages and increase performance.",
     icon: React.createElement(CgWorkAlt),
     date: "Sep 2022 - Nov 2022",
   },
@@ -100,7 +100,7 @@ export const experiencesData = [
     title: "Frontend Web Developer",
     location: "Sphinx Publishing Company · Full-time",
     description:
-      "Lead the development of online educational games for children, revolutionizing education in Kuwait, Egypt, Greece, and beyond. Craft interactive stories to enrich the online learning experience. Achieve team leadership within 1.5 years, showcasing proficiency in HTML, CSS, JavaScript, Bootstrap, and jQuery.",
+      "Lead online educational game development for children, transforming education in Kuwait, Egypt, Greece, and beyond. Craft interactive stories to enhance online learning. Achieved team leadership in 1.5 years.",
     icon: React.createElement(CgWorkAlt),
     date: "Jul 2020 - Nov 2022",
   },
@@ -112,12 +112,12 @@ export const experiencesData = [
     icon: React.createElement(CgWorkAlt),
     date: "Jul 2021 - Mar 2022",
   },
-  {
-    title: "Information Technology Institute (ITI)",
-    location: "Alexandria, Eg",
-    description:
-      "I graduated after 3 months of studying. I immediately found a job as a front-end developer.",
-    icon: React.createElement(LuGraduationCap),
-    date: "Nov 2019 - Feb 2020",
-  },
+  // {
+  //   title: "Information Technology Institute (ITI)",
+  //   location: "Alexandria, Eg",
+  //   description:
+  //     "I graduated after 3 months of studying. I immediately found a job as a front-end developer.",
+  //   icon: React.createElement(LuGraduationCap),
+  //   date: "Nov 2019 - Feb 2020",
+  // },
 ] as const;
