@@ -32,7 +32,7 @@ npm run dev
 
 ## Contact Information
 I'm always open to discussing new projects or opportunities. Reach out to me directly at:
-- Email: [youremail@example.com](mailto:eslam.mo.hussein@gmail.com)
+- Email: [eslam.mo.hussein@gmail.com](mailto:eslam.mo.hussein@gmail.com)
 - [LinkedIn Profile](https://www.linkedin.com/in/eslam-mo-hussein/)
 - [GitHub](http://www.github.com/EslamMohamed74)
 
