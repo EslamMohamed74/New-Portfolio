@@ -2,6 +2,10 @@ import React from "react";
 import odooImg from "@/public/odoo.png";
 import helloImg from "@/public/hello.png";
 import agsImg from "@/public/ags.png";
+import inteligenciaImg from "@/public/inteligencia.png";
+import jeddadermImg from "@/public/jeddaderm.png";
+import vocacyImg from "@/public/vocacy.png";
+import instagramImg from "@/public/instagram.png";
 import { CgWorkAlt } from "react-icons/cg";
 import { FaReact } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
@@ -40,7 +44,7 @@ export const projectsData = [
       "A company website. that show the services and modules they can provide.",
     tags: ["React", "TypeScript", "Next.js", "Tailwind", "i18n"],
     imageUrl: odooImg,
-    link: "#",
+    link: "https://erp.inteligencia.me/en",
   },
   {
     title: "Hello Voice",
@@ -57,6 +61,38 @@ export const projectsData = [
     tags: ["React", "Next.js", "React Bootstrap", "i18n"],
     imageUrl: agsImg,
     link: "https://ags.ae/en",
+  },
+  {
+    title: "inteligencia",
+    description:
+      "Inteligencia.me specializes in innovative web and UI/UX design, emphasizing user experience and client-focused project management",
+    tags: ["React", "Next.js", "React Bootstrap", "GSAP"],
+    imageUrl: inteligenciaImg,
+    link: "https://inteligencia.me/",
+  },
+  {
+    title: "jeddaderm",
+    description:
+      "JeddaDerm is a major gathering of international experts in dermatology and cosmetic medicine. Prepare yourself for an extraordinary experience",
+    tags: ["React", "Next.js", "React Bootstrap", "Swiper"],
+    imageUrl: jeddadermImg,
+    link: "https://jeddaderm.co/",
+  },
+  {
+    title: "Vocacy",
+    description:
+      "Advancing talent development with engaging, tech-driven learning solutions for improved performance and resource optimization.",
+    tags: ["React", "Next.js", "React Bootstrap", "AOS"],
+    imageUrl: vocacyImg,
+    link: "https://vocacy.co.uk/",
+  },
+  {
+    title: "React Instagram",
+    description:
+      "This web app, a clone of Instagram, allows users to create, read, update, delete posts, like, comment, and follow others.",
+    tags: ["React", "Materialize CSS", "Node.js", "Express.js", "MongoDB"],
+    imageUrl: instagramImg,
+    link: "https://fullstack-instagram.onrender.com/login",
   },
 ] as const;
 
