@@ -19,6 +19,6 @@ services:
           target: /app
           action: sync
     environment:
-      RESEND_API_KEY: 're_gD2pfBDg_Ebiw5yRbuKDcPMuT2vpCoLPE'
+      RESEND_API_KEY: ''
 volumes:
   portfolio:
