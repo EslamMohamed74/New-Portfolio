@@ -40,7 +40,7 @@ export const projectsData = [
       "A company website. that show the services and modules they can provide.",
     tags: ["React", "TypeScript", "Next.js", "Tailwind", "i18n"],
     imageUrl: odooImg,
-    link: "#",
+    link: "https://odoo-orcin.vercel.app/en",
   },
   {
     title: "Hello Voice",
