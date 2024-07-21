@@ -1,34 +1,40 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Portfolio Website
 
-## Getting Started
+## Introduction
+Welcome to my portfolio website! I am Eslam, a front-end developer with 4 years of experience. This website showcases my work in building sites and applications with a focus on React and Next.js.
 
-First, run the development server:
+## Technologies Used
+- HTML, CSS, JavaScript, TypeScript
+- React, Next.js, React Native, Redux
+- Tailwind, Material UI, Framer Motion
+- Node.js, Express, MongoDB
+- Git
 
-```bash
+## Features
+- Personalized about section detailing my journey as a developer.
+- A portfolio of projects, highlighting my work with various technologies.
+- Skills overview, showcasing my abilities in front-end development.
+- Experience timeline, showing my professional development and roles.
+
+## Projects
+Here are some of the projects featured on my website:
+- **Odoo**: A company website that shows the services and modules they can provide.
+- **Hello Voice**: A dynamic company portfolio website that shows the services they can provide like Animation and live-action videos.
+- **AGS**: A dynamic school portfolio website. Visitors can explore our achievements, programs, Principal's Message, faculty profiles, Contact Us with us and more.
+- **inteligencia**: Inteligencia.me specializes in innovative web and UI/UX design, emphasizing user experience and client-focused project management
+- **jeddaderm**: JeddaDerm is a major gathering of international experts in dermatology and cosmetic medicine. Prepare yourself for an extraordinary experience
+- **Vocacy**: Advancing talent development with engaging, tech-driven learning solutions for improved performance and resource optimization.
+- **React Instagram**: This web app, a clone of Instagram, allows users to create, read, update, delete posts, like, comment, and follow others.
+
+## Installation/Running Locally
+npm install
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Contact Information
+I'm always open to discussing new projects or opportunities. Reach out to me directly at:
+- Email: [eslam.mo.hussein@gmail.com](mailto:eslam.mo.hussein@gmail.com)
+- [LinkedIn Profile](https://www.linkedin.com/in/eslam-mo-hussein/)
+- [GitHub](http://www.github.com/EslamMohamed74)
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Feel free to submit any inquiries through the contact form on my website at [eslam-mo-hussein.vercel.app](https://eslam-mo-hussein.vercel.app/).
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
