@@ -140,7 +140,7 @@ export const experiencesData = [
     location: "Blue Holding Company · Full-time",
     description:
       "Developed interactive landing pages and portfolio websites for many companies with Next.js, Bootstrap, and Tailwind.",
-    icon: React.createElement(FaReact),
+    icon: React.createElement(CgWorkAlt),
     date: "Nov 2022 - Apr 2024",
   },
   {
