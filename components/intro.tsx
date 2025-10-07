@@ -14,6 +14,27 @@ export default function Intro() {
   const { ref } = useSectionInView("Home", 0.5);
   const { setActiveSection, setTimeOfLastClick } = useActiveSectionContext();
 
+  // Calculate years of experience dynamically starting from July 2020
+  const calculateExperience = (startYear: number, startMonth: number) => {
+    const startDate = new Date(startYear, startMonth, 1); // July 1, 2020
+    const currentDate = new Date();
+
+    let years = currentDate.getFullYear() - startDate.getFullYear();
+    const months = currentDate.getMonth() - startDate.getMonth();
+
+    // If we haven't reached the anniversary month this year, subtract 1
+    if (
+      months < 0 ||
+      (months === 0 && currentDate.getDate() < startDate.getDate())
+    ) {
+      years--;
+    }
+
+    return Math.max(years, 1); // Ensure at least 1 year is shown
+  };
+
+  const yearsOfExperience = calculateExperience(2020, 6); // July = month 6 (0-indexed)
+
   return (
     <section
       ref={ref}
@@ -64,8 +85,9 @@ export default function Intro() {
       >
         <span className="font-bold">Hello, I'm Eslam.</span> I'm a{" "}
         <span className="font-bold">front-end developer</span> with{" "}
-        <span className="font-bold">4 years</span> of experience. I enjoy
-        building <span className="italic">sites & apps</span>. My focus is{" "}
+        <span className="font-bold">{yearsOfExperience} years</span> of
+        experience. I enjoy building{" "}
+        <span className="italic">sites & apps</span>. My focus is{" "}
         <span className="underline">React (Next.js)</span>.
       </motion.h1>
 
