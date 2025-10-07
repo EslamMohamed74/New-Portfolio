@@ -1,4 +1,5 @@
 import React from "react";
+import blendImg from "@/public/blend.png";
 import odooImg from "@/public/odoo.png";
 import helloImg from "@/public/hello.png";
 import agsImg from "@/public/ags.png";
@@ -39,6 +40,14 @@ export const links = [
 
 export const projectsData = [
   {
+    title: "Blend",
+    description:
+      "Company website for a delivery aggregation platform that unifies orders from multiple food delivery apps into one dashboard.",
+    tags: ["Next.js", "Tailwind CSS", "i18n", "Shadcn/UI"],
+    imageUrl: blendImg,
+    link: "https://tryblend.net",
+  },
+  {
     title: "Odoo",
     description:
       "A company website. that show the services and modules they can provide.",
@@ -46,22 +55,22 @@ export const projectsData = [
     imageUrl: odooImg,
     link: "https://odoo-orcin.vercel.app/en",
   },
-  {
-    title: "Hello Voice",
-    description:
-      "A dynamic company portfolio website. that show the services they can provide like Animation and live-action videos.",
-    tags: ["React", "TypeScript", "Next.js", "Tailwind", "Aos"],
-    imageUrl: helloImg,
-    link: "https://hellovoice.co.uk/",
-  },
-  {
-    title: "AGS",
-    description:
-      "A dynamic school portfolio website. Visitors can explore our achievements, programs, Principal's Message, faculty profiles, Contact Us with us and more.",
-    tags: ["React", "Next.js", "React Bootstrap", "i18n"],
-    imageUrl: agsImg,
-    link: "https://ags.ae/en",
-  },
+  // {
+  //   title: "Hello Voice",
+  //   description:
+  //     "A dynamic company portfolio website. that show the services they can provide like Animation and live-action videos.",
+  //   tags: ["React", "TypeScript", "Next.js", "Tailwind", "Aos"],
+  //   imageUrl: helloImg,
+  //   link: "https://hellovoice.co.uk/",
+  // },
+  // {
+  //   title: "AGS",
+  //   description:
+  //     "A dynamic school portfolio website. Visitors can explore our achievements, programs, Principal's Message, faculty profiles, Contact Us with us and more.",
+  //   tags: ["React", "Next.js", "React Bootstrap", "i18n"],
+  //   imageUrl: agsImg,
+  //   link: "https://ags.ae/en",
+  // },
   {
     title: "inteligencia",
     description:
@@ -70,14 +79,14 @@ export const projectsData = [
     imageUrl: inteligenciaImg,
     link: "https://inteligencia.me/",
   },
-  {
-    title: "jeddaderm",
-    description:
-      "JeddaDerm is a major gathering of international experts in dermatology and cosmetic medicine. Prepare yourself for an extraordinary experience",
-    tags: ["React", "Next.js", "React Bootstrap", "Swiper"],
-    imageUrl: jeddadermImg,
-    link: "https://jeddaderm.co/",
-  },
+  // {
+  //   title: "jeddaderm",
+  //   description:
+  //     "JeddaDerm is a major gathering of international experts in dermatology and cosmetic medicine. Prepare yourself for an extraordinary experience",
+  //   tags: ["React", "Next.js", "React Bootstrap", "Swiper"],
+  //   imageUrl: jeddadermImg,
+  //   link: "https://jeddaderm.co/",
+  // },
   {
     title: "Vocacy",
     description:
@@ -106,9 +115,11 @@ export const skillsData = [
   "React native",
   "Redux",
   "Tailwind",
+  "Shadcn/UI",
   "Bootstrap",
   "Material ui",
   "Framer Motion",
+  "TanStack Query",
   "Git",
   "Node.js",
   "Express",
@@ -118,11 +129,19 @@ export const skillsData = [
 export const experiencesData = [
   {
     title: "Senior Frontend Developer",
+    location: "Blend · Full-time",
+    description:
+      "Led frontend development for the company's main platform, building a corporate landing page and three specialized dashboards using Next.js, Tailwind CSS, Shadcn/UI, and TanStack Query. The system includes: an Admin Dashboard for overall management, a Restaurant/Cafe Owner Dashboard for product management and delivery app integration, and a Staff Dashboard for order processing and analytics.",
+    icon: React.createElement(FaReact),
+    date: "May 2024 - present",
+  },
+  {
+    title: "Senior Frontend Developer",
     location: "Blue Holding Company · Full-time",
     description:
       "Developed interactive landing pages and portfolio websites for many companies with Next.js, Bootstrap, and Tailwind.",
     icon: React.createElement(FaReact),
-    date: "Nov 2022 - present",
+    date: "Nov 2022 - Apr 2024",
   },
   {
     title: "Frontend Web Developer",
