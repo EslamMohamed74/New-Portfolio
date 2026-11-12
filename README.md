@@ -4,10 +4,10 @@
 Welcome to my portfolio website! I am Eslam, a front-end developer with 6+ years of experience. This website showcases my work in building sites and applications with a focus on React and Next.js.
 
 ## Technologies Used
-- HTML, CSS, JavaScript, TypeScript
-- React, Next.js, React Native, Redux
-- Tailwind, Material UI, Framer Motion
-- Node.js, Express, MongoDB
+- HTML, CSS, TypeScript
+- React, Next.js
+- Tailwind CSS, Framer Motion
+- React Email + Resend (contact form)
 - Git
 
 ## Features
