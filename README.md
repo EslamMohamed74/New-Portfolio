@@ -1,7 +1,7 @@
 # Portfolio Website
 
 ## Introduction
-Welcome to my portfolio website! I am Eslam, a front-end developer with 4 years of experience. This website showcases my work in building sites and applications with a focus on React and Next.js.
+Welcome to my portfolio website! I am Eslam, a front-end developer with 6+ years of experience. This website showcases my work in building sites and applications with a focus on React and Next.js.
 
 ## Technologies Used
 - HTML, CSS, JavaScript, TypeScript
